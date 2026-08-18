@@ -9,7 +9,7 @@ export const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="bg-brand-dark text-white border-t border-white/15 pt-16 pb-12 text-left">
+    <footer className="bg-black text-white border-t border-white/15 pt-16 pb-12 text-left">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Grid */}
@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             </div>
 
             <p className="text-xs text-gray-300 max-w-sm leading-relaxed font-normal">
-              Официальный поставщик гибкой черепицы RUFLEX и KATEPAL в Республике Казахстан. Профессиональный подбор, расчёт и поставка кровельных систем с 2013 года.
+              Официальный поставщик гибкой черепицы RUFLEX и KATEPAL в Республике Казахстан. Профессиональный подбор, расчёт и поставка кровельных систем с 2003 года.
             </p>
 
             <div className="flex items-center gap-2 text-[11px] text-brand-accent pt-1 font-semibold">
@@ -45,11 +45,6 @@ export const Footer: React.FC = () => {
               Разделы сайта
             </span>
             <ul className="space-y-2.5 text-xs font-medium text-gray-200">
-              <li>
-                <a href="#visualizer" className="hover:text-white hover:underline transition-colors">
-                  Интерактивный выбор цвета
-                </a>
-              </li>
               <li>
                 <a href="#catalog" className="hover:text-white hover:underline transition-colors">
                   Каталог гибкой черепицы RUFLEX
@@ -73,6 +68,11 @@ export const Footer: React.FC = () => {
               <li>
                 <a href="#about" className="hover:text-white hover:underline transition-colors">
                   О компании
+                </a>
+              </li>
+              <li>
+                <a href="#contacts" className="hover:text-white hover:underline transition-colors">
+                  Контакты
                 </a>
               </li>
             </ul>
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom Strip */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-300 gap-4">
-          <p>© 2013–2026 ТОО «Диана Астана Трейд». Все права защищены.</p>
+          <p>© 2003–2026 ТОО «Диана Астана Трейд». Все права защищены.</p>
 
           <button
             onClick={scrollToTop}

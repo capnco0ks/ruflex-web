@@ -28,10 +28,10 @@ export const AboutCompany: React.FC<AboutCompanyProps> = () => {
 
             <div className="space-y-4 text-sm sm:text-base text-gray-700 leading-relaxed font-normal">
               <p>
-                <strong className="text-black font-bold">ТОО «Диана Астана Трейд»</strong> — один из ведущих и наиболее авторитетных независимых поставщиков премиальных кровельных материалов в Казахстане с более чем 13-летним стажем работы на рынке.
+                <strong className="text-black font-bold">ТОО «Диана Астана Трейд»</strong> — один из ведущих и наиболее авторитетных независимых поставщиков премиальных кровельных материалов в Казахстане с более чем 23-летним стажем работы на рынке.
               </p>
               <p>
-                Мы специализируемся на комплексных инженерных поставках гибкой черепицы от заводов-производителей первого эшелона — <strong className="text-black font-bold">RUFLEX</strong>, <strong className="text-black font-bold">KATEPAL</strong>, <strong className="text-black font-bold">LUXARD</strong>. Каждая партия материалов проходит жесткий входной контроль и имеет 100% заводскую сертификацию.
+                Мы специализируемся на комплексных инженерных поставках гибкой черепицы от заводов-производителей первого эшелона — <strong className="text-black font-bold">RUFLEX</strong>, <strong className="text-black font-bold">KATEPAL</strong>, <strong className="text-black font-bold">Завод Металл Профиль</strong>. Каждая партия материалов проходит жесткий входной контроль и имеет 100% заводскую сертификацию.
               </p>
               <p className="text-xs sm:text-sm text-gray-600">
                 Наша цель — предоставить заказчикам, архитекторам и подрядчикам долговечные кровельные системы, которые сохраняют безупречный внешний вид и герметичность даже в климатических условиях Акмолинской области.
@@ -84,10 +84,10 @@ export const AboutCompany: React.FC<AboutCompanyProps> = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="space-y-1">
                   <span className="text-3xl sm:text-4xl font-bold font-display text-white block">
-                    13+
+                    23+
                   </span>
                   <span className="text-xs text-gray-300 block leading-tight">
-                    лет успешной работы на строительном рынке РК
+                    года успешной работы на строительном рынке РК
                   </span>
                 </div>
 

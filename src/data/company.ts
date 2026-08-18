@@ -54,7 +54,7 @@ export const COMPANY_INFO: CompanyInfo = {
     weekend: 'Выходной',
     timezone: 'Астана (UTC+5)',
   },
-  experienceYears: 13,
+  experienceYears: 23,
   completedObjects: 1540,
   guaranteeYears: 50,
   locationGeo: {
@@ -131,9 +131,8 @@ export interface BrandPartner {
 export const BRAND_PARTNERS: BrandPartner[] = [
   { name: 'RUFLEX', country: 'Россия / ЕС', description: 'Премиальная гибкая черепица с пожизненной гарантией', badge: 'Генеральный партнёр' },
   { name: 'KATEPAL', country: 'Финляндия', description: 'Оригинальная финская СБС-модифицированная черепица', badge: 'Официальный дистрибьютор' },
-  { name: 'LUXARD', country: 'Технониколь', description: 'Композитная черепица с базальтовой посыпкой', badge: 'Официальный поставщик' },
+  { name: 'МЕТАЛЛ ПРОФИЛЬ', country: 'Россия / Казахстан', description: 'Ведущий завод кровельных и фасадных систем', badge: 'Завод МеталлПрофиль' },
   { name: 'SHINGLAS', country: 'Технониколь', description: 'Многослойная гибкая черепица', badge: 'Партнёр' },
-  { name: 'METROTILE', country: 'Бельгия', description: 'Элитная композитная кровля', badge: 'Прямые поставки' },
   { name: 'FAKRO', country: 'Польша', description: 'Энергосберегающие мансардные окна и лестницы', badge: 'Комплектующие' },
   { name: 'VILPE', country: 'Финляндия', description: 'Вентиляционные кровельные выходы и проходки', badge: 'Кровельная вентиляция' }
 ];
