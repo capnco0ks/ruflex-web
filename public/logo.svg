@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <!-- Curved path for top text Д И А Н А -->
+    <path id="topTextArc" d="M 55 150 A 95 95 0 0 1 245 150" fill="none" />
+    <!-- Curved path for bottom text Т Р Е Й Д -->
+    <path id="bottomTextArc" d="M 245 150 A 95 95 0 0 1 55 150" fill="none" />
+  </defs>
+
+  <!-- Outer Dark Ring Border -->
+  <circle cx="150" cy="150" r="142" fill="#1C1D21" />
+  <circle cx="150" cy="150" r="134" fill="#FFFFFF" />
+  <circle cx="150" cy="150" r="130" fill="#1C1D21" />
+  <circle cx="150" cy="150" r="126" fill="#FFFFFF" />
+
+  <!-- Outer Text Band (White) -->
+  <circle cx="150" cy="150" r="124" fill="#FFFFFF" />
+
+  <!-- Inner Dark Central Circle -->
+  <circle cx="150" cy="150" r="74" fill="#1C1D21" />
+
+  <!-- Top Text: Д И А Н А -->
+  <text font-family="'Cinzel', 'Playfair Display', 'Times New Roman', serif" font-weight="900" font-size="28" fill="#1C1D21" letter-spacing="9">
+    <textPath href="#topTextArc" startOffset="50%" text-anchor="middle">
+      ДИАНА
+    </textPath>
+  </text>
+
+  <!-- Bottom Text: Т Р Е Й Д -->
+  <text font-family="'Cinzel', 'Playfair Display', 'Times New Roman', serif" font-weight="900" font-size="26" fill="#1C1D21" letter-spacing="10">
+    <textPath href="#bottomTextArc" startOffset="50%" text-anchor="middle">
+      ТРЕЙД
+    </textPath>
+  </text>
+
+  <!-- Central D Monogram Silhouette with Horizontal Crossbar -->
+  <!-- Horizontal central bar cut out -->
+  <rect x="76" y="145" width="148" height="10" fill="#FFFFFF" />
+
+  <!-- Monogram D -->
+  <g fill="#FFFFFF">
+    <!-- Vertical stem with serifs -->
+    <rect x="120" y="105" width="16" height="90" />
+    <polygon points="112,105 142,105 136,113 120,113" />
+    <polygon points="112,195 142,195 136,187 120,187" />
+    
+    <!-- Curved D bowl -->
+    <path d="M 136 105 L 155 105 C 182 105 198 123 198 150 C 198 177 182 195 155 195 L 136 195 L 136 182 L 155 182 C 172 182 182 169 182 150 C 182 131 172 118 155 118 L 136 118 Z" />
+  </g>
+</svg>
